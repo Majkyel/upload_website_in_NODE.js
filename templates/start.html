@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    </head>
+    <body>
+        <h1>Upload the file</h1>
+        <form class="container" action="/upload" enctype="multipart/form-data" method="post">
+            <label class="title">File title</label>
+            <input class="title-input" type="text" name="title">
+            <br>
+            <label class="file">File</label>
+            <input class="file-input" type="file" name="upload" multiple="multiple"><br>
+            <input class="send" type="submit" value="Send">
+        </form>     
+    </body>
+</html>

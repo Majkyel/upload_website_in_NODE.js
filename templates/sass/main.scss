@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    h1 {
+        margin: auto;
+        padding: 5px 0;
+        color: antiquewhite;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border: 2px solid black;
+        border-radius: 10px;
+        max-width: 1200px;
+        background-color: green;
+    }
+    .container {
+        box-shadow: inset 0px 0px 4px 1px black;
+        background-color:darkgrey;
+        margin: auto;
+        max-width: 1200px;
+        text-align: center;
+        padding: 30px 0;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 30px;
+        .title, .title-input {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        .file, .file-input {
+            margin-bottom: 15px;
+        }
+        .file {
+            margin-left: 80px;
+        }
+        .send {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            padding: 5px 10px;
+            font-size: 15px;
+            width: 10%;
+            text-transform: uppercase;
+            margin-left: 40px;
+        }
+        .image {
+            border: 3px solid gray;
+        } 
+    }
+}
